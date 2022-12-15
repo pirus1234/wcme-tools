@@ -1,9 +1,9 @@
 require("dotenv").config({ path: "../.env" }) // for use of .env file
 const snmp = require("net-snmp")
 const { Server } = require("socket.io")
-const UPSSession = snmp.createSession("172.16.0.110", "public")
-const ServerSession = snmp.createSession("172.16.0.100", "public")
-const FortiGateSession = snmp.createSession("172.16.0.3", "public")
+const UPSSession = snmp.createSession("IP", "public")
+const ServerSession = snmp.createSession("IP", "public")
+const FortiGateSession = snmp.createSession("IP", "public")
 
 const pgPool = require("../pgpool")
 
