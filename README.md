@@ -6,6 +6,10 @@ This project runs on Node v18 or later. Made with ReactJS, Express, and Socket.i
 
 In the project directory, you can run:
 
+### `node server.js`
+
+This will run the backend server at port 3003. SSL needs to be setup.
+
 ### `npm start`
 
 Runs the app in the development mode.\
