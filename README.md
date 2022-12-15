@@ -1,6 +1,7 @@
 # WCME-Tools
 
 This project runs on Node v18 or later. Made with ReactJS, Express, and Socket.io frameworks.
+Backend uses PostgreSQL v14 or later, and does not generate tables automatically.
 
 ## Available Scripts
 
