@@ -11,8 +11,8 @@ function generateAccessToken(props) {
 module.exports = async (req, res) => {
   const AD = await new ActiveDirectory({
     url: "ldap://172.16.10.11:389",
-    bindDN: "viktor.sundberg@wascoenergy.com",
-    bindCredentials: "XXn77Q//",
+    bindDN: "user.name@wascoenergy.com",
+    bindCredentials: "password",
     baseDN: "OU=Wasco Energy Group,DC=wascoenergy,DC=wasco,DC=global",
   })
   let userName = req.body.user
