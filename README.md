@@ -1,6 +1,6 @@
 # WCME-Tools
 
-This project is made with Node v18 or later, React, Express, and Socket.io
+This project runs on Node v18 or later. Made with ReactJS, Express, and Socket.io frameworks.
 
 ## Available Scripts
 
