@@ -28,7 +28,7 @@ server.listen(3003, () => {
 })
 
 const handler = proxy({
-  url: `rtsp://admin:wasco.123@172.16.0.120:554/Streaming/channels/102`,
+  url: `rtsp://admin:password@172.16.0.120:554/Streaming/channels/102`,
   // if your RTSP stream need credentials, include them in the URL as above
   verbose: false,
 })
